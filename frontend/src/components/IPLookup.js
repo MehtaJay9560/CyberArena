@@ -9,7 +9,7 @@ const [data,setData]=useState(null);
 const scan=async()=>{
 
 const res=await axios.post(
-"http://localhost:5000/ip",
+"https://cyberarena-9ddl.onrender.com/ip",
 {ip}
 );
 

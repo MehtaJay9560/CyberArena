@@ -31,7 +31,7 @@ setProgress(percent);
 try{
 
 const res=await axios.post(
-"http://localhost:5000/recon",
+"https://cyberarena-9ddl.onrender.com/recon",
 {domain}
 );
 

@@ -17,7 +17,7 @@ setData(null);
 try{
 
 const res=await axios.post(
-"http://localhost:5000/emailosint",
+"https://cyberarena-9ddl.onrender.com/email-osint",
 {email}
 );
 

@@ -17,7 +17,7 @@ setData(null);
 try{
 
 const res=await axios.post(
-"http://localhost:5000/osint",
+"https://cyberarena-9ddl.onrender.com/osint",
 {username}
 );
 

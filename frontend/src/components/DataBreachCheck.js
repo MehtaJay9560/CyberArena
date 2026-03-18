@@ -16,7 +16,7 @@ setLoading(true);
 try{
 
 const res=await axios.post(
-"http://localhost:5000/breach",
+"https://cyberarena-9ddl.onrender.com/breach",
 {email}
 );
 
